@@ -1,0 +1,37 @@
+Question 2 Explain the purpose of comments in HTML and provide an example of how to use comments in an HTML Documents.?
+
+Answer.HTML comments are meant to allow programmers to add annotations to their code that do not appear in the browser. 
+Comments can be used to describe the purpose of a part of code, to identify who wrote it, or to provide instructions for future
+developers who may need to edit it. In HTML, comments are enclosed in   <!--and-->  tags.
+
+
+Example of Comment:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comments</title>
+</head>
+<body>
+    <h1>In HTML, comments are enclosed in <!-- and --> tags.</h1>
+    <!-- <h1>In HTML, comments are enclosed in tags.</h1> -->(comment)
+</body>
+</html>
+
+
+Question.4 Write a Short Note on Tag and Elements with an Example?
+Answer.HTML tags are essentially hidden commands or keywords that are integrated into HTML that control how the information and layout of a web page are displayed in your browser. 
+The majority of HTML tags consist of an opening and a closing section, and any content entered within the tag's function determines how the tag functions. The <html> tag, which 
+has both a starting tag and an ending tag, is the most prevalent example.HTML components are the foundation of a web page. They are used to define a web page's structure and content.
+A start tag, some content, and an end tag define an HTML element. The element's name is enclosed in angle brackets in the start tag. The end tag is also surrounded by angle brackets, 
+but it includes a forward slash before the element name. An element's content is put between the start and end tags. For example:<tagname>Content</tagname> is an example of an HTML element 
+i.e <h1>Heading</h1>
+
+
+Question.5 What is DOCTYPE Declaration in HTML ?
+Answer. A doctype or document-type declaration is an instruction that tells the web browser about the markup language in which the current page is written. 
+The Doctype is not an element or tag, it lets the browser know about the version of or standard of HTML or any other markup language that is being used in the document.
+A DOCTYPE declaration appears at the top of a web page before all other elements. According to the HTML specification or standards, every HTML document requires a document 
+type declaration to ensure that the pages are displayed in the way they are intended to be displayed.
